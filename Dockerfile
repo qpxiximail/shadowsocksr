@@ -1,8 +1,8 @@
 FROM alpine:3.6
 
 ENV SERVER_ADDR     0.0.0.0
-ENV SERVER_PORT     51348
-ENV PASSWORD        psw
+ENV SERVER_PORT    443
+ENV PASSWORD        m
 ENV METHOD          aes-128-ctr
 ENV PROTOCOL        auth_aes128_md5
 ENV PROTOCOLPARAM   32
